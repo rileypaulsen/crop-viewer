@@ -38,7 +38,7 @@ if( !class_exists('CropViewer') ){
 		}
 
 		/**
-		* Sets up the plugin on the admin side
+		* Sets up the settings section and fields under "Settings > Media"
 		*/
 		public function admin_setup(){
 			$this->post_types = get_post_types();
